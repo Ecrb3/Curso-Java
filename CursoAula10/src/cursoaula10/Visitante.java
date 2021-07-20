@@ -9,6 +9,6 @@ package cursoaula10;
  *
  * @author eduardo.borges
  */
-public class Visitante {
+public class Visitante extends Pessoa {
     
 }

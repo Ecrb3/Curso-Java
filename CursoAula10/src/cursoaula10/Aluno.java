@@ -1,9 +1,12 @@
 package cursoaula10;
 
-public class Aluno extends Pessoa{
+public  class Aluno extends Pessoa{
    private int matr;
    private String curso;
 
+   public void pagarMensalidade(){
+       System.out.println("Mensalidade paga");
+   }
    public void cancelarMatr(){
        System.out.println("Matricula cancelada");
    }

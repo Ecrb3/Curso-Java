@@ -3,30 +3,18 @@ package cursoaula10;
 public class CursoAula10 {
 
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa();
-        Aluno p2 = new Aluno();
-        Professor p3 = new Professor();
-        Funcionario p4 = new Funcionario();
-        
-        p1.setNome("Pedro");
-        p2.setNome("Maria");
-        p3.setNome("Cláudio");
-        p4.setNome("Fabiana");
-        
-        p1.setSexo("M");
-        p4.setSexo("F");
-        p2.setIdade(18);
-        
-        p2.setCurso("Informática");
-        p3.setSalario(2500.75f);
-        p4.setSetor("Estoque");
-        
-        
-        System.out.println(p1.toString());
-        System.out.println(p2.toString());
-        System.out.println(p3.toString());
-        System.out.println(p4.toString());
-           
+       Aluno a1 = new Aluno();
+       a1.setNome("Cláudio");
+       a1.setMatr(1111);
+       a1.setCurso("Informática");
+       a1.setIdade(16);
+       a1.pagarMensalidade();
+       
+       Bolsista b1 = new Bolsista();
+       b1.setMatr(1112);
+       b1.setNome("Jubileu");
+       b1.setBolsa(12.5f);
+       b1.pagarMensalidade();
     }
     
 }
